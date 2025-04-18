@@ -77,7 +77,7 @@ Bot: [Tool] Answer: 120.000000000000
 You: Search Chinya Ravishankar
 Bot: [Web Search] - He is...
 
-> **Final Notes:**
+## Final Notes
 - Fully local and offline-capable
 
 - Persistent memory using Chroma
@@ -85,6 +85,7 @@ Bot: [Web Search] - He is...
 - Modular: Easily extend with new tools (e.g., Wolfram, SQL, APIs)
 
 - Suitable for secure deployments (e.g., Internal applications)
+
 
 ## Architecture
 ```bash
