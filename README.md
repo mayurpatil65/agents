@@ -15,7 +15,6 @@ It supports:
 
 > Victor Agent is a fully local POC developed for research and internal use, with support for offline chat, private docs, and modular tool integration.
 
----
  
 ## Key Features
 
@@ -40,7 +39,6 @@ Custom decision node classifies user input into:
 - Web search fallback → for OOD queries
 - LLM fallback → if no relevant context or tools apply
 
----
 
 ## Running the Agent
 
@@ -48,11 +46,6 @@ From the `5_langgraph_persistent_memory/` folder:
 
 ```bash
 python main.py
-
----
-
-
-
 
 
 ## Dependencies 
@@ -77,7 +70,6 @@ You also need to install and run Ollama locally and pull the model:
 
 Example Interactions
 
-
 You: filename:roadmap.pdf What are the key takeaways?
 Bot: [RAG] Based on 'roadmap.pdf'... [summarized content]
 
@@ -88,7 +80,6 @@ You: Search Chinya Ravishankar
 Bot: [Web Search] - He is...
 
 
----
 
           ┌──────────────┐
           │   User CLI   │
@@ -112,10 +103,8 @@ Bot: [Web Search] - He is...
           └──────────────┘
 
 
----
 
-
-**Final Notes:**
+> **Final Notes:**
 - Fully local and offline-capable
 
 - Persistent memory using Chroma
