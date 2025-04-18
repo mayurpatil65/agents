@@ -43,8 +43,6 @@ Custom decision node classifies user input into:
 ## Running the Agent
 
 From the `5_langgraph_persistent_memory/` folder:
-
-```bash
 python main.py
 
 
@@ -64,11 +62,11 @@ SymPy
 
 duckduckgo-search
 
-You also need to install and run Ollama locally and pull the model:
+## You also need to install and run Ollama locally and pull the model:
 
   - ollama pull llama3.2:1b
 
-Example Interactions
+## Example Interactions
 
 You: filename:roadmap.pdf What are the key takeaways?
 Bot: [RAG] Based on 'roadmap.pdf'... [summarized content]
@@ -80,6 +78,7 @@ You: Search Chinya Ravishankar
 Bot: [Web Search] - He is...
 
 
+## Architecture
 
           ┌──────────────┐
           │   User CLI   │
