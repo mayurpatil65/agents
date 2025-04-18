@@ -86,6 +86,13 @@ Bot: [Web Search] - He is...
 
 - Suitable for secure deployments (e.g., Internal applications)
 
+## Roadmap
+ 1. Add GUI frontend (e.g., Streamlit or FastAPI)
+
+ 2. Integrate structured tool outputs with agents
+
+ 3. Support for other inputs (images, videos)
+
 
 ## Architecture
 ```bash
