@@ -51,7 +51,11 @@ python main.py
 
 ---
 
-**## Dependencies** 
+
+
+
+
+## Dependencies 
 
 LangChain v0.3+
 
