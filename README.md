@@ -13,7 +13,7 @@ It supports:
 - `filename:` prefix-based PDF filtering
 - CLI interface for interactive sessions with chat history
 
-> Victor Agent is a fully local POC developed for research and internal use, with support for offline chat, private docs, and modular tool integration.
+Agent is a fully local POC developed for research and internal use, with support for offline chat, private docs, and modular tool integration.
 
  
 ## Key Features
